@@ -1,0 +1,40 @@
+CSS Document*/
+html {font-size: 100px}
+* {margin: 0 auto; padding: 0; text-align: center; -webkit-tap-heighlight-color: rgba(0,0,0,0); -webkit-tap-heighlight-color: transparent;/* for some androids*/}
+body {font-family: "Microsoft Yahei","微软雅黑"; max-width: 7.5rem; font-size: 0.26rem; color: #222;}
+img {border: none; display: block;}
+li {list-style-type: none;}
+a {text-decoration: none; color: #555;}
+a,img,button,input,textarea{-webkit-tap-highlight-color: rgba(255,255,255,0);}/*单击去阴影*/
+input,textarea{-webkit-appearance:none; outline: none; font-family: "Microsoft Yahei","微软雅黑";}/*去除表格默认样式*/
+h1,h2,h3,h4,h5{font-family: "Microsoft Yahei","微软雅黑";}
+
+.content {min-width: 320px; width: 7.5rem; height: 100%; position: relative;}
+.hide {display: none;}
+.clear_float:after{content: ""; display: block; height: 0; clear: both; zoom:1;}
+.ov{text-overflow: ellipsis; white-space: nowrap;overflow: hidden;}
+.fl{float: left !important;}
+.fr{float: right !important;}
+.w700{width: 7rem}
+.w750{width: 7.5rem}
+
+.header {background: #f7f7f7; padding: 0.4rem 0 0.2rem 0; position: relative;border-bottom: solid 1px #cfcfcf;}
+.header span{font-size: 0.33rem; font-weight: bold; color: #000; display: inline-block;}
+.header img{width: 0.33rem; height: 0.36rem; position: absolute;top: 50%; margin-top: -0.08rem; right: 0.53rem}
+
+.tabWrap{padding: 0.3rem 0;border-bottom: solid 1px #e3e3e3;display: flex;justify-content: space-between;}
+.tabList{width: 50%;box-sizing: border-box;color: #424242;font-size: 0.3rem;position: relative;}
+.tabList span{display: inline-block;background: url(../images/loansListIco1.png) no-repeat right;background-size: 0.28rem; padding-right: 0.4rem}
+.tabListOn{color: #26a5e8 !important;}
+.tabListOn span{background: url(../images/loansListIco3.png) no-repeat right !important;background-size: 0.28rem !important;}
+
+.tabMainPop{height: 100%;width: 7.5rem;position: fixed;background: rgba(0,0,0,0.4);left:50%;margin-left: -3.75rem;top: 1.87rem;z-index: 5;}
+.popMain{box-sizing: border-box;padding: 0.3rem 0.3rem 0.1rem 0.3rem;background: #fff;}
+.popMain span{font-size: 0.24rem; width: 2.16rem;box-sizing: border-box;border: solid 1px #999;color: #555;border-radius: 5px;margin-bottom: 0.2rem;padding: 0.12rem 0;margin-right: 0.2rem;float: left;}
+.popMain span:nth-child(3n+0){margin-right: 0;}
+.classifyOn{color: #26a5e8 !important; border:solid 1px #26a5e8 !important;}
+
+
+
+
+
